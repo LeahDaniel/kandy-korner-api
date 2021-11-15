@@ -1,0 +1,168 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "address": "0372 Willow Grove, South Katharinaview, AR 64384"
+        },
+        {
+            "id": 2,
+            "address": "9053 Arvid Pines, Jazmyneshire, KY 13119"
+        },
+        {
+            "id": 3,
+            "address": "7818 Dedric Way, Lourdesborough, AK 46839"
+        },
+        {
+            "id": 4,
+            "address": "504 Reilly Wells, South Filomena, AL 70970"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "locationId": 1,
+            "name": "Ernestine Spinka"
+        },
+        {
+            "id": 1,
+            "locationId": 1,
+            "name": "Lorene Rohan"
+        },
+        {
+            "id": 2,
+            "locationId": 1,
+            "name": "Geneva Bins"
+        },
+        {
+            "id": 3,
+            "locationId": 2,
+            "name": "Alonzo Mueller"
+        },
+        {
+            "id": 4,
+            "locationId": 2,
+            "name": "Erin Gleason"
+        },
+        {
+            "id": 5,
+            "locationId": 3,
+            "name": "Betty Streich"
+        },
+        {
+            "id": 6,
+            "locationId": 3,
+            "name": "Ada Hane Jr."
+        },
+        {
+            "id": 7,
+            "locationId": 3,
+            "name": "Alexander Mills"
+        },
+        {
+            "id": 8,
+            "locationId": 3,
+            "name": "Allison Hegmann"
+        },
+        {
+            "id": 9,
+            "locationId": 4,
+            "name": "Eddie Mills"
+        },
+        {
+            "id": 10,
+            "locationId": 4,
+            "name": "Sophia Satterfield"
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "name": "Chocolates"
+        },
+        {
+            "id": 2,
+            "name": "Gummies"
+        },
+        {
+            "id": 3,
+            "name": "Hard Candies"
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "productTypeId": 1,
+            "name": "Ferrero Rocher",
+            "price": 4.93 
+        },
+        {
+            "id": 2,
+            "productTypeId": 2,
+            "name": "Swedish Fish",
+            "price": 3.45
+        },
+        {
+            "id": 3,
+            "productTypeId": 2,
+            "name": "Gummy Bears",
+            "price": 3.21
+        },
+        {
+            "id": 4,
+            "productTypeId": 1,
+            "name": "Hershey's Bar",
+            "price": 4.26
+        },
+        {
+            "id": 5,
+            "productTypeId": 3,
+            "name": "Jolly Rancher",
+            "price": 2.27
+        },
+        {
+            "id": 6,
+            "productTypeId": 3,
+            "name": "Werther's Original",
+            "price": 2.99
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Roman Torphy" 
+        },
+        {
+            "id": 2,
+            "name": "Orville Grant" 
+        },
+        {
+            "id": 3,
+            "name": "Rick Cole" 
+        },
+        {
+            "id": 4,
+            "name": "Minnie Lang" 
+        },
+        {
+            "id": 5,
+            "name": "Marjorie Gleason" 
+        },
+        {
+            "id": 6,
+            "name": "Nichole Heathcote" 
+        },
+        {
+            "id": 7,
+            "name": "Mattie Heidenreich" 
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "employeeId": 2,
+            "customerId": 3,
+            "totalPrice": 20.00,
+            "date": "11/15/2021"
+        }
+    ]
+}
