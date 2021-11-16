@@ -1,168 +1,255 @@
 {
-    "locations": [
-        {
-            "id": 1,
-            "address": "0372 Willow Grove, South Katharinaview, AR 64384"
-        },
-        {
-            "id": 2,
-            "address": "9053 Arvid Pines, Jazmyneshire, KY 13119"
-        },
-        {
-            "id": 3,
-            "address": "7818 Dedric Way, Lourdesborough, AK 46839"
-        },
-        {
-            "id": 4,
-            "address": "504 Reilly Wells, South Filomena, AL 70970"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "locationId": 1,
-            "name": "Ernestine Spinka"
-        },
-        {
-            "id": 1,
-            "locationId": 1,
-            "name": "Lorene Rohan"
-        },
-        {
-            "id": 2,
-            "locationId": 1,
-            "name": "Geneva Bins"
-        },
-        {
-            "id": 3,
-            "locationId": 2,
-            "name": "Alonzo Mueller"
-        },
-        {
-            "id": 4,
-            "locationId": 2,
-            "name": "Erin Gleason"
-        },
-        {
-            "id": 5,
-            "locationId": 3,
-            "name": "Betty Streich"
-        },
-        {
-            "id": 6,
-            "locationId": 3,
-            "name": "Ada Hane Jr."
-        },
-        {
-            "id": 7,
-            "locationId": 3,
-            "name": "Alexander Mills"
-        },
-        {
-            "id": 8,
-            "locationId": 3,
-            "name": "Allison Hegmann"
-        },
-        {
-            "id": 9,
-            "locationId": 4,
-            "name": "Eddie Mills"
-        },
-        {
-            "id": 10,
-            "locationId": 4,
-            "name": "Sophia Satterfield"
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "name": "Chocolates"
-        },
-        {
-            "id": 2,
-            "name": "Gummies"
-        },
-        {
-            "id": 3,
-            "name": "Hard Candies"
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "productTypeId": 1,
-            "name": "Ferrero Rocher",
-            "price": 4.93 
-        },
-        {
-            "id": 2,
-            "productTypeId": 2,
-            "name": "Swedish Fish",
-            "price": 3.45
-        },
-        {
-            "id": 3,
-            "productTypeId": 2,
-            "name": "Gummy Bears",
-            "price": 3.21
-        },
-        {
-            "id": 4,
-            "productTypeId": 1,
-            "name": "Hershey's Bar",
-            "price": 4.26
-        },
-        {
-            "id": 5,
-            "productTypeId": 3,
-            "name": "Jolly Rancher",
-            "price": 2.27
-        },
-        {
-            "id": 6,
-            "productTypeId": 3,
-            "name": "Werther's Original",
-            "price": 2.99
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Roman Torphy" 
-        },
-        {
-            "id": 2,
-            "name": "Orville Grant" 
-        },
-        {
-            "id": 3,
-            "name": "Rick Cole" 
-        },
-        {
-            "id": 4,
-            "name": "Minnie Lang" 
-        },
-        {
-            "id": 5,
-            "name": "Marjorie Gleason" 
-        },
-        {
-            "id": 6,
-            "name": "Nichole Heathcote" 
-        },
-        {
-            "id": 7,
-            "name": "Mattie Heidenreich" 
-        }
-    ],
-    "purchases": [
-        {
-            "id": 1,
-            "employeeId": 2,
-            "customerId": 3,
-            "totalPrice": 20.00,
-            "date": "11/15/2021"
-        }
-    ]
+  "locations": [
+    {
+      "id": 1,
+      "address": "0372 Willow Grove, South Katharinaview, AR 64384",
+      "name": "Willow Grove"
+    },
+    {
+      "id": 2,
+      "address": "9053 Arvid Pines, Jazmyneshire, KY 13119",
+      "name": "Arvid Pines"
+    },
+    {
+      "id": 3,
+      "address": "7818 Dedric Way, Lourdesborough, AK 46839",
+      "name": "Dedric Way"
+    },
+    {
+      "id": 4,
+      "address": "504 Reilly Court, South Filomena, AL 70970",
+      "name": "Reilly Court"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "name": "Ernestine Spinka",
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 15.02
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "name": "Lorene Rohan",
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 18.4
+    },
+    {
+      "id": 3,
+      "locationId": 1,
+      "name": "Geneva Bins",
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 19.99
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "name": "Alonzo Mueller",
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 16.65
+    },
+    {
+      "id": 5,
+      "locationId": 2,
+      "name": "Erin Gleason",
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 19.28
+    },
+    {
+      "id": 6,
+      "locationId": 3,
+      "name": "Betty Streich",
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 10.67
+    },
+    {
+      "id": 7,
+      "locationId": 3,
+      "name": "Ada Hane Jr.",
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 13.05
+    },
+    {
+      "id": 8,
+      "locationId": 3,
+      "name": "Alexander Mills",
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 16.86
+    },
+    {
+      "id": 9,
+      "locationId": 3,
+      "name": "Allison Hegmann",
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 15.93
+    },
+    {
+      "id": 10,
+      "locationId": 4,
+      "name": "Eddie Mills",
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 11.48
+    },
+    {
+      "id": 11,
+      "locationId": 4,
+      "name": "Sophia Satterfield",
+      "manager": true,
+      "fullTime": true,
+      "hourlyRate": 13.05
+    },
+    {
+      "name": "Bob Testman Jr",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": true,
+      "hourlyRate": 16.4,
+      "id": 12
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "name": "Chocolates"
+    },
+    {
+      "id": 2,
+      "name": "Gummies"
+    },
+    {
+      "id": 3,
+      "name": "Hard Candies"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productTypeId": 1,
+      "name": "Ferrero Rocher",
+      "price": 4.93
+    },
+    {
+      "id": 2,
+      "productTypeId": 2,
+      "name": "Swedish Fish",
+      "price": 3.45
+    },
+    {
+      "id": 3,
+      "productTypeId": 2,
+      "name": "Gummy Bears",
+      "price": 3.21
+    },
+    {
+      "id": 4,
+      "productTypeId": 1,
+      "name": "Hershey's Bar",
+      "price": 4.26
+    },
+    {
+      "id": 5,
+      "productTypeId": 3,
+      "name": "Jolly Rancher",
+      "price": 2.27
+    },
+    {
+      "id": 6,
+      "productTypeId": 3,
+      "name": "Werther's Original",
+      "price": 2.99
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Roman Torphy"
+    },
+    {
+      "id": 2,
+      "name": "Orville Grant"
+    },
+    {
+      "id": 3,
+      "name": "Rick Cole"
+    },
+    {
+      "id": 4,
+      "name": "Minnie Lang"
+    },
+    {
+      "id": 5,
+      "name": "Marjorie Gleason"
+    },
+    {
+      "id": 6,
+      "name": "Nichole Heathcote"
+    },
+    {
+      "id": 7,
+      "name": "Mattie Heidenreich"
+    }
+  ],
+  "productLocations": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "locationId": 1,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "locationId": 2,
+      "productId": 3
+    },
+    {
+      "id": 4,
+      "locationId": 2,
+      "productId": 4
+    },
+    {
+      "id": 5,
+      "locationId": 3,
+      "productId": 5
+    },
+    {
+      "id": 6,
+      "locationId": 3,
+      "productId": 6
+    },
+    {
+      "id": 7,
+      "locationId": 4,
+      "productId": 1
+    },
+    {
+      "id": 8,
+      "locationId": 4,
+      "productId": 2
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 3,
+      "productLocationId": 1,
+      "quantity": 3,
+      "date": "11/15/2021"
+    }
+  ]
 }
