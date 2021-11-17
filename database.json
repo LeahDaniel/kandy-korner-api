@@ -174,31 +174,43 @@
   "customers": [
     {
       "id": 1,
-      "name": "Roman Torphy"
+      "name": "Roman Torphy",
+      "email": "roman@email.com"
     },
     {
       "id": 2,
-      "name": "Orville Grant"
+      "name": "Orville Grant",
+      "email": "orville@email.com"
     },
     {
       "id": 3,
-      "name": "Rick Cole"
+      "name": "Rick Cole",
+      "email": "rick@email.com"
     },
     {
       "id": 4,
-      "name": "Minnie Lang"
+      "name": "Minnie Lang",
+      "email": "minnie@email.com"
     },
     {
       "id": 5,
-      "name": "Marjorie Gleason"
+      "name": "Marjorie Gleason",
+      "email": "marjorie@email.com"
     },
     {
       "id": 6,
-      "name": "Nichole Heathcote"
+      "name": "Nichole Heathcote",
+      "email": "nichole@email.com"
     },
     {
       "id": 7,
-      "name": "Mattie Heidenreich"
+      "name": "Mattie Heidenreich",
+      "email": "mattie@email.com"
+    },
+    {
+      "id": 8,
+      "name": "Leah Daniel",
+      "email": "ljd615@gmail.com"
     }
   ],
   "productLocations": [
@@ -245,11 +257,18 @@
   ],
   "purchases": [
     {
-      "id": 1,
-      "customerId": 3,
-      "productLocationId": 1,
-      "quantity": 3,
-      "date": "11/15/2021"
+      "customerId": 8,
+      "productId": 1,
+      "quantity": 10,
+      "date": "11/17/2021",
+      "id": 1
+    },
+    {
+      "customerId": 8,
+      "productId": 5,
+      "quantity": 30,
+      "date": "11/17/2021",
+      "id": 2
     }
   ]
 }
