@@ -111,11 +111,11 @@
       "hourlyRate": 13.05
     },
     {
-      "name": "Bob Testman Jr",
-      "locationId": 2,
-      "manager": false,
+      "name": "Bob Testguy",
+      "locationId": 1,
+      "manager": true,
       "fullTime": true,
-      "hourlyRate": 16.4,
+      "hourlyRate": 20.32,
       "id": 12
     }
   ],
@@ -258,17 +258,31 @@
   "purchases": [
     {
       "customerId": 8,
-      "productId": 1,
-      "quantity": 10,
-      "date": "11/17/2021",
+      "productLocationId": 1,
+      "quantity": 7,
+      "date": "11/18/2021",
       "id": 1
     },
     {
       "customerId": 8,
-      "productId": 5,
-      "quantity": 30,
-      "date": "11/17/2021",
+      "productLocationId": 5,
+      "quantity": 8,
+      "date": "11/18/2021",
       "id": 2
+    },
+    {
+      "customerId": 1,
+      "productLocationId": 8,
+      "quantity": 75,
+      "date": "11/18/2021",
+      "id": 3
+    },
+    {
+      "customerId": 1,
+      "productLocationId": 3,
+      "quantity": 42,
+      "date": "11/18/2021",
+      "id": 4
     }
   ]
 }
