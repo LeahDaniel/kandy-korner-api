@@ -265,6 +265,78 @@
       "productLocationId": 5,
       "date": "11/18/2021",
       "id": 3
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 3,
+      "date": "11/23/2021",
+      "id": 4
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 3,
+      "date": "11/23/2021",
+      "id": 5
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 3,
+      "date": "11/23/2021",
+      "id": 6
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 3,
+      "date": "11/23/2021",
+      "id": 7
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 3,
+      "date": "11/23/2021",
+      "id": 8
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 8,
+      "date": "11/23/2021",
+      "id": 9
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 8,
+      "date": "11/23/2021",
+      "id": 10
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 8,
+      "date": "11/23/2021",
+      "id": 11
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 8,
+      "date": "11/23/2021",
+      "id": 12
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 8,
+      "date": "11/23/2021",
+      "id": 13
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 8,
+      "date": "11/23/2021",
+      "id": 14
+    },
+    {
+      "customerId": 8,
+      "productLocationId": 8,
+      "date": "11/23/2021",
+      "id": 15
     }
   ]
 }
